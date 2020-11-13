@@ -1,0 +1,75 @@
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+@media screen and (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+@media screen and (min-width: 720px){
+    .container{
+        width: 750px;
+    }
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+/*头部设置*/
+.header{
+    height: 20%;
+}
+.topnav{
+    width: 1000px;
+    margin-top: 18px;
+}
+/*logo设置*/
+.topnav .logo{
+    float: left;
+}
+.logo > a > img{
+    vertical-align: middle;
+}
+/*头部文字*/
+.topnav > ul{
+    position: relative;
+    right: 140px;    
+}
+.topnav > ul > li{
+    float: right;
+}
+.topnav > ul > li > a{
+    text-decoration: underline;
+    display: block;
+    padding: 7px 5px;
+}
+.topnav > ul > li > a:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+/*头部搜索框*/
+#searchbox{
+    right: 140px;
+    position: relative;
+    padding: 5px 3px;
+    float: right;
+}
+#searchbox > input{
+    border-color: black;
+    border-radius: 1em;
+}
